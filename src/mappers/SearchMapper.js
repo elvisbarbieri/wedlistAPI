@@ -16,7 +16,9 @@ class SearchMapper {
             return {
                 name: guest?.name,
                 is_kid: guest?.is_kid,
-                check_in: guest?.check_in
+                check_in: guest?.check_in,
+                age: guest?.age,
+                payment: guest?.payment
             }
         })
         return allGuests;
